@@ -34,9 +34,9 @@ print("Distance is: {:.2f}".format(dis)
 
 
 # Write a function `print_tuple` that prints all the values in a tuple
+# YOUR CODE HERE:
 
-# YOUR CODE HERE
-tup = (1, 2, 5, 7, 99);
+t = (1, 2, 5, 7, 99)
 
 def print_tuple(t):
     for i in t:

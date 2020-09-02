@@ -75,9 +75,6 @@ d = {
     "monster": "goblin",
     "hp": 3
 }
-def f4(dics):
-    for name, value in dics.items():
-        print("key : {}, value : {}".format(name, value))
 
 # How do you have to modify the f4 call below to make this work?
-f4(d)
+f4(**d)
